@@ -1,3 +1,64 @@
-div{
-    border: 1px solid red;
+ body{
+    margin: 0px;
+} 
+
+#container{
+    border: 2px solid blue;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+#container2{
+    border: 2px solid saddlebrown;
+    width: 60%;
+    padding: 20px;
+}
+#container3{
+    border: 2px solid greenyellow;
+    width: 37%;
+    padding: 20px;
+}
+.container4{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+#container5{
+    border: 2px solid pink;
+    padding: 20px;
+}
+#container6{
+    border: 2px solid greenyellow;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h1{
+    color: aquamarine;
+}
+.img-container img{
+    width: 100%;
+}
+.menu-principal{
+    border: 2px solid red;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: aqua;
+
+}
+.chatbot{
+    border: 2px solid green;
+    border-radius: 30px;
+    background-color: greenyellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
